@@ -11,6 +11,7 @@ var st2="moshe";
 console.log('3');
 app.get('/', function(request, response) {
   response.send(st2);
+});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
